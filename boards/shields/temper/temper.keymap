@@ -90,6 +90,16 @@
             mods = <(MOD_LSFT)>;
         };
     };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        settings_trigger {
+            if-layers = <1 4>;
+            then-layer = <6>;
+        };
+    };
+
         keymap {
                 compatible = "zmk,keymap";
 
