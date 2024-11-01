@@ -1,35 +1,26 @@
 layers:
   Alpha:
-  - - J
+  - [Q, W, F, P, B, J, L, U, Y, ;]
+  - - {t: A, h: LGUI}
+    - {t: R, h: LALT}
+    - {t: S, h: LSHFT}
+    - {t: T, h: LCTRL}
     - G
     - M
-    - P
-    - V
-    - {t: ;, h: ':'}
-    - {t: ., h: '&'}
-    - {t: /, h: '*'}
-    - {t: '"', h: '?'}
-    - {t: '''', h: '!'}
-  - - {t: R, h: LGUI}
-    - {t: S, h: LALT}
-    - {t: N, h: LSHFT}
-    - {t: D, h: LCTRL}
-    - B
-    - ','
-    - {t: A, h: RCTRL}
+    - {t: N, h: RCTRL}
     - {t: E, h: RSHFT}
     - {t: I, h: LALT}
-    - {t: H, h: RGUI}
+    - {t: O, h: RGUI}
   - - {t: X, h: Ctl+ Z}
     - {t: F, h: Ctl+ X}
-    - {t: L, h: Ctl+ C}
-    - {t: C, h: Ctl+ V}
-    - W
-    - {t: '-', h: +}
-    - U
-    - O
-    - Y
+    - {t: C, h: Ctl+ C}
+    - {t: D, h: Ctl+ V}
+    - V
     - K
+    - H
+    - ','
+    - .
+    - /
   - - TAB
     - {t: T, h: Sym}
     - {t: ENTER, h: Num/FN}
@@ -231,8 +222,3 @@ layers:
     - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-combos:
-- p: [0, 1]
-  k: Z
-- p: [1, 2]
-  k: Q
