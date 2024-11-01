@@ -22,10 +22,10 @@ layers:
     - .
     - /
   - - TAB
-    - {t: T, h: Sym}
-    - {t: ENTER, h: Num/FN}
-    - {t: SPACE, h: Nav}
-    - {t: ESC, h: Util}
+    - {t: ENTER, h: Sym}
+    - {t: TAB, h: Num/FN}
+    - {t: BACKSPACE, h: Nav}
+    - {t: SPACE, h: Util}
     - BACKSPACE
   Nav:
   - - {t: ▽, type: trans}
