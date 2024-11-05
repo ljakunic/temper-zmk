@@ -119,18 +119,18 @@
         default_layer {
             display-name = "Alpha";
             bindings = <
-  &kp Q        &kp W        &kp F        &kp P          &kp B            &kp J              &kp L           &kp U        &kp Y       &kp SEMICOLON
-  &hm LGUI A   &hm LALT R   &hm LSHFT S  &hm LCTRL T    &kp G            &kp M              &hm RCTRL N     &hm RSHFT E  &hm LALT I  &hm RGUI O
-  &mt LC(Z) X  &mt LC(X) F  &mt LC(C) C  &mt LC(V) D    &kp V            &kp K              &kp H           &kp COMMA    &kp PERIOD  &kp SLASH
-                            &kp TAB      &lt SYM ENTER  &lt NUMFN TAB    &lt NAV BACKSPACE  &lt UTIL SPACE  &none
+  &kp Q        &kp W        &kp F                    &kp P          &kp B            &kp J              &kp L           &kp U        &kp Y       &kp SEMICOLON
+  &hm LGUI A   &hm LALT R   &hm LSHFT S              &hm LCTRL T    &kp G            &kp M              &hm RCTRL N     &hm RSHFT E  &hm LALT I  &hm RGUI O
+  &mt LC(Z) X  &mt LC(X) F  &mt LC(C) C              &mt LC(V) D    &kp V            &kp K              &kp H           &kp COMMA    &kp PERIOD  &kp SLASH
+                            &ht LEFT_SHIFT LEFT_WIN  &lt SYM ENTER  &lt NUMFN TAB    &lt NAV BACKSPACE  &lt UTIL SPACE  &sl 3
             >;
         };
 
         nav_layer {
             display-name = "Nav";
             bindings = <
-  &trans           &trans  &trans  &trans       &trans    &trans  &trans    &trans     &trans     &trans
-  &kp LC(LS(TAB))  &trans  &trans  &kp LC(TAB)  &trans    &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT
+  &trans           &trans  &trans  &trans       &trans    &trans  &trans    &kp UP     &trans     &trans
+  &kp LC(LS(TAB))  &trans  &trans  &kp LC(TAB)  &trans    &trans  &kp LEFT  &kp DOWN   &kp RIGHT  &trans
   &trans           &trans  &trans  &trans       &trans    &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END
                            &trans  &trans       &trans    &trans  &trans    &trans
             >;
