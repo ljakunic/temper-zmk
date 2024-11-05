@@ -21,12 +21,12 @@ layers:
     - ','
     - .
     - /
-  - - TAB
+  - - {t: LEFT WIN, h: LEFT SHIFT}
     - {t: ENTER, h: Sym}
     - {t: TAB, h: Num/FN}
     - {t: BACKSPACE, h: Nav}
     - {t: SPACE, h: Util}
-    - ''
+    - {t: Prog Sym, h: sticky}
   Nav:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -35,7 +35,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - UP
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - Ctl+Sft+ TAB
@@ -46,8 +46,8 @@ layers:
     - {t: ▽, type: trans}
     - LEFT
     - DOWN
-    - UP
     - RIGHT
+    - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -110,7 +110,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {type: held}
   Num/FN:
   - - F9
     - F10
